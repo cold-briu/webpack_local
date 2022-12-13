@@ -1,7 +1,7 @@
 import api from "./api" // default import export
 import * as components from "./components" // named import export
-import "./styles/styles.css"
-import "./styles/styles2.css"
+import "./styles/styles.sass"
+import "./styles/styles2.sass"
 import messi from "./img/messi.jpg"
 
 console.log("hello webpack");

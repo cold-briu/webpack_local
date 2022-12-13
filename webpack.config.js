@@ -32,6 +32,15 @@ module.exports = {
 				test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
 				type: 'asset/resource',
 			},
+			{
+				test: /\.s[ac]ss$/,
+				exclude: /node_modules/,
+				use: [
+					'style-loader',
+					'css-loader',
+					'sass-loader'
+				]
+			}
 		]
 	},
 
