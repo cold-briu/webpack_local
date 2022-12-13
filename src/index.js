@@ -8,5 +8,5 @@ console.log("hello webpack");
 
 let data = api.httpGet()
 components.createTitle(data)
-components.createP("hola")
+components.createP("hola mundo :D :D :D :D")
 components.createImg(messi)

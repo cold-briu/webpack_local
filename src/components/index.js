@@ -1,6 +1,7 @@
 export const createImg = (src) => {
 	const img = document.createElement("img")
 	img.src = src
+	img.width = 200
 	document.body.appendChild(img)
 }
 
