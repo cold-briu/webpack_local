@@ -1,6 +1,8 @@
 # basic_webpack
 Probando webpack
 
+(desactualizado, ver video de la clase)
+
 1. Crear repo en github
 	- gitignore: Node
 	- license: MIT
