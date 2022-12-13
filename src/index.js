@@ -1,5 +1,8 @@
-import api from "./api"
+import api from "./api" // default import export
+import * as components from "./components" // named import export
 
 console.log("hello webpack");
 
-api.httpGet()
+let data = api.httpGet()
+components.createTitle(data)
+components.createP("hola")
