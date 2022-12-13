@@ -1,3 +1,9 @@
+export const createImg = (src) => {
+	const img = document.createElement("img")
+	img.src = src
+	document.body.appendChild(img)
+}
+
 export const createTitle = (text = " ") => {
 	const element = document.createElement("h1")
 	element.innerHTML = text
